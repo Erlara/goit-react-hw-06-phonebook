@@ -7,7 +7,7 @@ const contactsInitialState = [
   { id: nanoid(), name: 'Annie Copeland', number: '227-91-26' },
 ];
 
-const contactsSlice = createSlice({
+export const contactsSlice = createSlice({
   name: 'contacts',
   initialState: contactsInitialState,
   reducers: {
