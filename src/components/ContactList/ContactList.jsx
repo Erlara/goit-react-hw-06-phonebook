@@ -8,8 +8,6 @@ export const ContactList = () => {
   const filter = useSelector(getFilter);
   const dispatch = useDispatch();
 
-  console.log(filter);
-
   const getFilteredContacts = () => {
     const normalizedFilter = filter.toLowerCase();
 
